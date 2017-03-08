@@ -1,4 +1,7 @@
-This repository contains source code and binaries for Fukui function calculation program. Fukui functions are reactivity descriptors defined in the framework of Density Functional Theory (DFT). Normally you need to download corresponding binary file (/bin/Win/fukui.exe - for Windows or /bin/Linux/fukui - for Linux).
+This repository contains source code and binaries for Fukui function calculation program. Fukui functions are reactivity descriptors defined in the framework of Density Functional Theory (DFT). Software implementation corresponds to the way described in the article :     Renato R. Contreras, Patricio Fuentealba, Marcelo Galván, Patricia Pérez.                                            
+"A direct evaluation of regional Fukui functions in molecules". Chemical Physics Letters, V. 304, (1999), p. 405-413.
+
+Normally you need to download corresponding binary file (/bin/Win/fukui.exe - for Windows or /bin/Linux/fukui - for Linux).
 How to use:
 type in command prompt > fukui coh2.out     (program works with *.out and *.log files of Gaussian 03 and Gaussian 09)
 

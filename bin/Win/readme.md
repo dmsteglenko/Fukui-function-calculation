@@ -1,1 +1,1 @@
-This directory contain compiled file for Windows  OS
+This directory contains compiled file for Windows  OS

@@ -1,0 +1,39 @@
+These descriptors of reactivity are defined in the framework of DFT.
+
+Software implementation corresponds to the way described in the article :
+Renato R. Contreras, Patricio Fuentealba, Marcelo Galván, Patricia Pérez. 
+"A direct evaluation of regional Fukui functions in molecules". Chemical Physics Letters, V. 304, (1999), p. 405-413.
+
+
+
+
+       Global reactivity descriptors
+================================================================================
+ mu     =   -4.2264  eV                         ! defined as (E_homo + E_lumo)/2
+
+ eta    =    6.1595  eV                         ! defined as (E_lumo - E_homo)
+
+ omega  =    1.4500  eV                         ! defined as (mu^2)/(2*eta)
+================================================================================
+
+
+
+
+       Table of condensed to atom Fukui functions
+--------------------------------------------------------------------------------
+   Atom        f(-)        f(+)        f(0)
+================================================================================
+ 1     C      0.0447      0.6508      0.3478
+ 2     H      0.1264      0.0000      0.0632
+ 3     H      0.1264      0.0000      0.0632
+ 4     O      0.7024      0.3492      0.5258
+================================================================================
+Norm:         1.0000      1.0000      1.0000
+
+
+
+
+For the global descriptors of reactivity see:
+Robert G. Parr, László v. Szentpály, Shubin Liu. "Electrophilicity Index". 
+J. Am. Chem. Soc., 1999, 121 (9), pp 1922–1924
+

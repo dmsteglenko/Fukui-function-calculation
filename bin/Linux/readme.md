@@ -1,1 +1,1 @@
-This directory contain compiled file for Linux  OS
+This directory contains compiled file for Linux  OS

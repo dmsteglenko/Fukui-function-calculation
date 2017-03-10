@@ -8,3 +8,7 @@ type in command prompt > ./fukui coh2.out     (program works with *.out and *.lo
 After program will stop continuing,  current directory should contain coh2.fuk file. This is simple text file and it may be viewed by any text editor.
 
 Note, calculation of Fukui function requires N*(N-1) multiplications and if input file contain large number of basis function it takes a lot of time. The largest file, which had been tested is about 579 Mb and  contain 2471 basis function. This job takes about 16 min of time on core i3 CPU @ 2.4GHz on Windows. Linux version  in few times (7-8 times) faster.  
+
+
+
+License: GPL 3.0 
